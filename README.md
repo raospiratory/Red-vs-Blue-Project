@@ -148,7 +148,7 @@ To discover the IP address we will need to use Nmap to scan your network.
 ![](https://github.com/raospiratory/Red-vs-Blue-Project/blob/main/Images/nmap.PNG)
 
 Netdiscover is another tool that can be used to inspect IP address and network ARP traffic. 
-- Command used: `netdiscover -r 192.168.1.0/24
+- Command used: `netdiscover -r 192.168.1.0/24`
 
 ![](https://github.com/raospiratory/Red-vs-Blue-Project/blob/main/Images/netdiscover.PNG)
 
