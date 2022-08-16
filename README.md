@@ -354,7 +354,7 @@ Identify the traffic between your machine and the web machine:
 
 ![](https://github.com/raospiratory/Red-vs-Blue-Project/blob/main/Images/blue1.PNG)
 
-The following responses: `401`, `301`, `200`, `207, `303` returned shown in the images below:
+The following responses: `401`, `301`, `200`, `207`, `303` returned shown in the images below:
 
 ![](https://github.com/raospiratory/Red-vs-Blue-Project/blob/main/Images/blue2.PNG)
 
