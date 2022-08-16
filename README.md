@@ -497,3 +497,6 @@ To identify the meterpreter session, on the Discovery page of Kibana, we can use
 </details>
 
 ---
+
+### Presentation
+To view the Presentation for this project please click [here](https://github.com/raospiratory/Red-vs-Blue-Project/blob/main/Presentation/VINCENT_RAO-PROJECT_2_RED_VS._BLUE.pdf).
