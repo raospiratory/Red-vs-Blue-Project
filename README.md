@@ -2,10 +2,9 @@
 
 ### Unit Description
 
-In this project, you will be playing a role of both a pentester and SOC Analyst and will work on a Red Team vs. Blue Team scenario.
+In this project, you will be playing in a role of both a pentester (Red Team) and a SOC Analyst (Blue Team).
 
-As the Red Team, you will attack a vulnerable VM within your environment in an effort to take control and gain root access to the machine. You will be using Kibana as the Blue Team and analyze logs of the attacking engagement from Red Team. using the logs to get precise information and visuals for a report.
-Following that, you will analyze your log data to offer mitigation strategies for each exploit you've successfully used.
+As the Red Team, you will be attacking a vulnerable VM within your environment in an effort to take control and gain root access to the machine.  As the Blue Team, you will be using Kibana to analyze logs of the attacking engagement from Red Team and using the logs to get precise information and visuals for a report. Following that, you will analyze your log data to offer mitigation strategies for each exploit you've successfully used.
 
 
 ### Unit Objectives
